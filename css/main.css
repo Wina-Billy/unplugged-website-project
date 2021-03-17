@@ -129,6 +129,14 @@ p {
   line-height: 1.285;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin:0;
+}
+
 address {
   font-style: normal;
 }
@@ -138,9 +146,7 @@ address {
   margin: 50px 0;
 }
 
-img {
-  width: 100%;
-}
+
    /* -------------------- Base Header - Footer Styles -------------------- */
 
   header,
@@ -164,6 +170,14 @@ img {
     flex-flow:row wrap;
   }
 
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
   .header-divider {
     background: #3a3a3a; 
     width: 100%;
@@ -179,13 +193,17 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow:row wrap;
+    flex-flow: row wrap;
   }
 
   header nav ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+
+  header nav ul li {
+    font-size: 1.125em;
   }
 
   footer {
@@ -200,7 +218,8 @@ img {
   footer .content-wrapper {
     width: 50%;
     margin: 50px 0;
-}
+  }
+
   footer .contact {
     margin-bottom: 50px;
   }
@@ -226,16 +245,21 @@ img {
   /* Hero Area */
 
  .hero-area {
-   display: flex;
-   justify-content: center;
-   flex-flow: row wrap;
-}
-.hero-area h1 {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  }
+
+ .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2; 
-}
+ }
 
   /* Aside */
 
@@ -276,15 +300,19 @@ img {
   /* Features */  
 
   .features {
+    background: url('../img/unplugged-retreat-features.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
+    
   .features h2{
     margin-bottom: 60px;
   }
 
-  .features  .article {
+  .features .article {
     width: 63%;
     margin: 30px 0;
   }
@@ -317,7 +345,7 @@ img {
 
   .reviews h3 {
     margin: 20px 0;
-    width: 50%;
+    width: 55%;
 }
   /* =========================================================================
    About Page
@@ -340,7 +368,7 @@ img {
    }
 
   .contact-content p { 
-  margin: 0;
+    margin: 0;
   }
 
   /* ==========================================================================
@@ -362,6 +390,7 @@ img {
     flex-flow:row wrap;
     margin: 50px 0 0 0;
   }
+
   .faq h2 {
     margin-bottom: 40px;
     line-height:1;
@@ -371,6 +400,9 @@ img {
     margin-bottom: 50px;
   }
 
+  .faq-content h4 {
+  line-height: 1.333;
+  }
   /*=========================================================================
   Helper classes
    ========================================================================== */
