@@ -125,7 +125,7 @@ h4 {
 }
 
 p { 
-  font-size: 0.875em;
+  font-size: .875em;
   line-height: 1.285;
 }
 
@@ -216,7 +216,7 @@ address {
   }
 
   footer .content-wrapper {
-    width: 50%;
+    width: 55%;
     margin: 50px 0;
   }
 
@@ -359,18 +359,6 @@ address {
     flex-flow: row wrap;
    }
 
-  .contact-section {
-    background-color: #2a423a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-   }
-
-  .contact-content p { 
-    margin: 0;
-  }
-  
   .map figure {
     width: 100%;
     height: 0; 
@@ -379,13 +367,26 @@ address {
     position: relative;
   }
  
- .map iframe {
+  .map iframe {
     width: 100%;
     height: 100%;
     position: absolute; 
     top: 0; 
     left: 0; 
-} 
+  }
+
+  .contact-section {
+    background-color: #2a423a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .contact-content p { 
+    margin: 0;
+  }
+ 
   /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -416,8 +417,9 @@ address {
   }
 
   .faq-content h4 {
-  line-height: 1.333;
+    line-height: 1.333;
   }
+
   /*=========================================================================
   Helper classes
    ========================================================================== */
