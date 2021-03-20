@@ -615,6 +615,7 @@ aside .content-wrapper .form {
 
 .features .features-item-description {
   width: 62%;
+  padding-bottom: 30px;
 }
 
 /* Reviews */
@@ -775,6 +776,8 @@ aside .content-wrapper .form {
      
 .features article {
   flex-basis: 33%;
+  
+  
 }
  
 /* Reviews */ 
