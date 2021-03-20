@@ -627,11 +627,15 @@ aside .content-wrapper .form {
 
 .reviews h2 {
   width: 85%;
+  padding-top: 50px;
+  margin-left: 50px;
 }
 
 .reviews article figure,
 .reviews article div {
-    width: 49%;        
+    width: 49%;   
+    padding-bottom: 80px; 
+    margin-left:50px;   
 }
 
 .reviews h3 {
