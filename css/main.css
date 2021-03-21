@@ -216,22 +216,24 @@ address {
   }
   
   footer p {
-    margin: 0;
+    margin: 10px;
   }
 
   footer .content-wrapper {
-    width: 55%;
+    width: 50%;
     margin: 50px 0;
   }
 
   footer .contact {
     margin-bottom: 40px;
+  
   }
 
   footer .social-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    font-size: 1.25em;
     
   }
   
@@ -247,8 +249,8 @@ address {
   }
 
   footer .social-icons p i {
-    font-size: 1.3125em;
-    height: 20px;
+    font-size: 1.25em;
+    height: 15px;
   }
 
   footer .copywright {
