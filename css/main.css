@@ -231,7 +231,7 @@ address {
 
   footer .social-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 1.25em;
     
@@ -332,6 +332,7 @@ address {
   .features .article {
     width: 63%;
     margin: 30px 0;
+
   }
 
   .features .features-items {
@@ -339,6 +340,7 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin-right: 10px;
   }
 
   .features i {
@@ -347,7 +349,7 @@ address {
   }
 
   .features p {
-    text-align: center;
+    text-align: left;
     margin: 0;
   }
 
