@@ -145,7 +145,7 @@ address {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 80%;
   margin: 50px 0;
 }
 
@@ -207,7 +207,7 @@ address {
 
   header nav ul li {
     font-size: 1.125em;
-    margin: 5px;
+    margin: 3px;
   }
 
   footer {
@@ -225,8 +225,7 @@ address {
   }
 
   footer .contact {
-    margin-bottom: 40px;
-  
+    margin-bottom: 30px;
   }
 
   footer .social-icons {
@@ -245,7 +244,7 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
   }
 
   footer .social-icons p i {
@@ -332,7 +331,6 @@ address {
   .features .article {
     width: 63%;
     margin: 30px 0;
-
   }
 
   .features .features-items {
@@ -345,7 +343,7 @@ address {
 
   .features i {
     font-size: 3.75em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .features p {
@@ -369,7 +367,7 @@ address {
 
   .reviews h3 {
     margin: 20px 0;
-    width: 55%;
+    width: 60%;
 }
   /* =========================================================================
    About Page
@@ -404,11 +402,12 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: row-wrap;
   }
 
   .contact-content p { 
     margin: 0;
+    
   }
  
   /* ==========================================================================
